@@ -863,3 +863,156 @@ p {
 	/* End contact  */
 }
 /* End Media Query For Tablet */
+/* Resetarea stilurilor implicite */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Stilurile pentru body */
+body {
+	font-family: Arial, sans-serif;
+		font-size: 16px;
+		color: #333;
+		background-image: url("img/img-3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+}
+
+/* Stilurile pentru header */
+header {
+	background-color: #1b6911;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+/* Stilurile pentru main */
+main {
+	padding: 20px;
+}
+
+/* Stilurile pentru container */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Stilurile pentru căsuțe */
+.house {
+	max-width: 400px;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.house img {
+	max-width: 100%;
+	height: auto;
+}
+
+.house h2 {
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.house p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.house a {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.house a:hover {
+	background-color: #3e8e41;
+}
+/* Stiluri CSS */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.house {
+	max-width: 400px;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.house img {
+	max-width: 100%;
+	height: auto;
+}
+.house h2 {
+	font-size: 24px;
+	margin: 10px 0;
+}
+.house p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.house a {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.house a:hover {
+	background-color: #3e8e41;
+}
+/* Stiluri pentru detalii casă */
+.house-details {
+	display: none;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+
+.house-details h3 {
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.house-details p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.house-details img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+
+	
+  
